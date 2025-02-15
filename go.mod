@@ -1,3 +1,3 @@
-module testopenapi
+module github.com/SheerGeyser/user-openapi
 
-go 1.23
+go 1.23.6
