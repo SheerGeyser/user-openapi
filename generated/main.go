@@ -15,7 +15,7 @@ import (
 	// WARNING!
 	// Pass --git-repo-id and --git-user-id properties when generating the code
 	//
-	sw "github.com/GIT_USER_ID/GIT_REPO_ID/go"
+	sw "github.com/SheerGeyser/user-openapi/go"
 )
 
 func main() {

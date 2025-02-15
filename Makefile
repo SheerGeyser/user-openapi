@@ -11,7 +11,8 @@ generate:
       -i /local/schema/openapi.yaml \
       -g go-gin-server \
       -o /generated \
-      --enable-post-process-file
+      --git-repo-id user-openapi \
+      --git-user-id SheerGeyser
 clean:
 	rm -rf $(OUTPUT_PATH)
 
