@@ -10,5 +10,6 @@
 package openapi
 
 type UsersIdFriendsPostRequest struct {
+
 	FriendId string `json:"friendId,omitempty"`
 }
