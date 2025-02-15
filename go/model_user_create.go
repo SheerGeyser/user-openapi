@@ -9,11 +9,10 @@
 
 package openapi
 
-type UserUpdate struct {
+type UserCreate struct {
+	Name string `json:"name"`
 
-	Name string `json:"name,omitempty"`
+	Email string `json:"email"`
 
-	Email string `json:"email,omitempty"`
-
-	Friends []int32 `json:"friends,omitempty"`
+	FriendIds []int32 `json:"friend_ids,omitempty"`
 }

@@ -17,58 +17,57 @@ type DefaultAPI struct {
 }
 
 // Get /v1/users
-// Список пользователей 
+// Список пользователей
 func (api *DefaultAPI) UsersGet(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
 
 // Delete /v1/users/:id
-// Удаление пользователя по ID 
+// Удаление пользователя по ID
 func (api *DefaultAPI) UsersIdDelete(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
 
 // Delete /v1/users/:id/friends
-// Удалить друга из списка 
+// Удалить друга из списка
 func (api *DefaultAPI) UsersIdFriendsDelete(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
 
 // Get /v1/users/:id/friends
-// Получить список друзей пользователя 
+// Получить список друзей пользователя
 func (api *DefaultAPI) UsersIdFriendsGet(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
 
 // Post /v1/users/:id/friends
-// Добавить друга пользователю 
+// Добавить друга пользователю
 func (api *DefaultAPI) UsersIdFriendsPost(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
 
 // Get /v1/users/:id
-// Получить пользователя по ID 
+// Получить пользователя по ID
 func (api *DefaultAPI) UsersIdGet(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
 
 // Put /v1/users/:id
-// Редактирование пользователя по ID 
+// Редактирование пользователя по ID
 func (api *DefaultAPI) UsersIdPut(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
 
 // Post /v1/users
-// Создание пользователя 
+// Создание пользователя
 func (api *DefaultAPI) UsersPost(c *gin.Context) {
 	// Your handler implementation
 	c.JSON(200, gin.H{"status": "OK"})
 }
-

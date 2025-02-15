@@ -9,7 +9,10 @@
 
 package openapi
 
-type UsersIdFriendsPostRequest struct {
+type UserUpdate struct {
+	Name string `json:"name,omitempty"`
 
-	FriendId string `json:"friendId,omitempty"`
+	Email string `json:"email,omitempty"`
+
+	Friends []int32 `json:"friends,omitempty"`
 }

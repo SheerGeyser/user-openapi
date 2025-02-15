@@ -9,11 +9,6 @@
 
 package openapi
 
-type UserCreate struct {
-
-	Name string `json:"name"`
-
-	Email string `json:"email"`
-
-	FriendIds []int32 `json:"friend_ids,omitempty"`
+type UsersIdFriendsPostRequest struct {
+	FriendId string `json:"friendId,omitempty"`
 }
